@@ -5,7 +5,7 @@
 ### Version: 1.0
 #
 # Description: After following the protocol for the calculation of bending modulus via the buckling
-# method, outlined on our team GitHub page (link), the user will have performed two production
+# method, outlined on our team GitHub page (https://github.com/MMSB-MOBI/buckle-bending-modulus), the user will have performed two production
 # simulatons: one for the calculation of length, where the bilayer is free to move only in x,
 # and a second where the biayer is buckled in x, exerting force on the "wall" of the box in x.
 #
@@ -30,7 +30,7 @@ parser = argparse.ArgumentParser(description = "Calculate the Bending Modulus, K
                                 to calculate length in the x-dimension, and -f being the energy output corresponding \
                                  to the system buckled in the same dimension.",
 
-epilog = "For more information, consult our GitHub page, (link). Note that this script is simply an implementation of the equation derived in Hu, 2013 (doi: 10.1063/1.4808077).")
+epilog = "Note that this script is simply an implementation of the equation derived in Hu, 2013 (doi: 10.1063/1.4808077).")
 
 # -c INPUTFILE -o OUTPUTFILE -x DIM -y DIM -z DIM --help
 parser.add_argument("-l", "--length", help = "<.edr> GROMACS energy file from system length simulation.", required = True)
