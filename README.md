@@ -65,3 +65,10 @@ The second production run (7.restrain) can then be conducted on the buckled equi
                                          │   7.restrain   │
                                          │                │
                                          └────────────────┘
+                                         
+                                         
+### Calculation of Kc
+The script calculate_kc.py can calculate the bending modulus from the gromacs energy files (.edr) provided from the two production runs. It can be called as follows:
+```python
+python calculate_kc.py -l length_production.edr -f restrain_production.edr
+```
