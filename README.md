@@ -9,7 +9,7 @@ The method to calculate bending modulus comes from:
 > Hu, M., Diggins, P., & Deserno, M. (2013). Determining the bending modulus of a lipid membrane by simulating buckling. The Journal of chemical physics, 138(21), 214110. https://doi.org/10.1063/1.4808077
 
 Tests on optimal system size and overall workflow/method development originated in:
-> Eid, J., Razmazma, H., Jraij, A., Ebrahimi, A., & Monticelli, L. (2020). On Calculating the Bending Modulus of Lipid Bilayer Membranes from Buckling Simulations. The Journal of Physical Chemistry B, 124 (29), 6299-6311. httpsL//doi.org/10.1021/acs.jpcb.0c04253 
+> Eid, J., Razmazma, H., Jraij, A., Ebrahimi, A., & Monticelli, L. (2020). On Calculating the Bending Modulus of Lipid Bilayer Membranes from Buckling Simulations. The Journal of Physical Chemistry B, 124 (29), 6299-6311. https://doi.org/10.1021/acs.jpcb.0c04253 
 
 ### Simulation Explanations:
 Two production runs are required for the calculation of Kc: 
@@ -41,7 +41,7 @@ The second production run (7.restrain) can then be conducted on the buckled equi
                             └───────┬────────┘
                                     │
                             ┌───────▼────────┐
-                            │                │                                             ▼
+                            │                │                                             
                             │      3.eq      │
                             │                │
                         ┌───┴────────────────┴────┐
